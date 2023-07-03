@@ -3,7 +3,10 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import Header from './Header'
 // import Content from '/Content.jsx'
+import imgStephen from './assets/Stephen.jpg'
 import './App.css'
+
+const imgUrl = [imgStephen]
 
 
 function App() {
@@ -11,8 +14,17 @@ function App() {
 
   return (
     <div>
+      <div className ="img-container">
+        {
+          imgUrl.map(image => 
+            <div className="image">
+              <img src={image} alt="" />
+            </div>
+          )
+        }
+      </div>
       <Header />
-
+      
     </div>
     
   )
