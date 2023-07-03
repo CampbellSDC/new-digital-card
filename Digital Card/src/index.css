@@ -29,11 +29,23 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #23252C;
+  color: #fff;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+header {
+  line-height: 1;
+}
+
+header > p {
+  color: #F3BF99;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  
+  
 }
 
 .image {
@@ -42,7 +54,24 @@ h1 {
 
 .image > img {
   width: 100%;
+  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.email, .linkedin {
+  border: none;
+  width: 10em;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
