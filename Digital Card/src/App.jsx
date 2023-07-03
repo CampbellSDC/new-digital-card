@@ -2,11 +2,11 @@ import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import Header from './Header'
-// import Content from '/Content.jsx'
+import Content from './Content'
 
 import './App.css'
 
-const imgUrl = [imgStephen]
+
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
     <div>
     
       <Header />
+      <Content />
       
     </div>
     
