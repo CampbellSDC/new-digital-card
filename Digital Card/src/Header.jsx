@@ -9,7 +9,16 @@ const imageURL = [imgStephen]
 function Header() {
     return(
         <>
+        
             <header>
+
+            <div class = 'toggle-switch'>
+                <label>
+                    <input type = 'checkbox' />
+                    <span class = 'slider'></span>
+                </label>
+            </div>
+
                 <div className="img-container">
                 {
                     imageURL.map(image => 
