@@ -13,16 +13,8 @@ function Footer(){
 
            <a href="https://www.facebook.com/profile.php?id=2347945" target="_blank"><FontAwesomeIcon className="footer-icon facebook" icon="fa-brands fa-square-facebook" /></a>
 
-           
-
-                
-           <a href="https://www.instagram.com/wildwoodside/" target="_blank">
-               <div className="bg">
-                    <div className="inner">
-                        <FontAwesomeIcon className="footer-icon instagram" icon="fa-brands fa-square-instagram" />
-                     </div>
-               </div> 
-            </a> 
+            <a href="https://www.instagram.com/wildwoodside/" target="_blank"><FontAwesomeIcon className="footer-icon instagram" icon="fa-brands fa-square-instagram" /></a> 
+            
            <a href="https://github.com/CampbellSDC" target="_blank"><FontAwesomeIcon className="footer-icon github" icon="fa-brands fa-square-github" /></a> 
 
         </div>
